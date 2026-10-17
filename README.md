@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VAULT24 — full stack (fictional prototype)
 
 ```
@@ -58,3 +59,7 @@ cd backend && php tests/run.php          # 48 backend tests
 - Admin overview "Audit events" counts the loaded page (max 100), not the table total.
 - Lock/unlock of users exists in the API (`/admin/users/{id}/lock`) but the admin UI has no button yet.
 - Production needs HTTPS (`COOKIE_SECURE=true`, `ENABLE_HSTS=true`) and the apps served from the same site as the API (or listed in `CORS_ALLOWED_ORIGINS`).
+=======
+# VAULT24
+**VAULT24** is a full-stack management system designed to streamline customer services and administrative operations. It features customer and admin portals, staff management, secure authentication, and a backend API powered by PHP and SQLite, with a modern frontend built using Vite.
+>>>>>>> ed4ce37a5e30635acbe5b566be19a97fe05b9669
